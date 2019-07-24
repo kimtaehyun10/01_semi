@@ -14,6 +14,7 @@ function contentPage(){
 	location.href="<%=request.getContextPath()%>/travel/contentPage";
 }
 </script>
+
 </head>
 <body>
 	<div class="container">
@@ -26,8 +27,15 @@ function contentPage(){
 			<h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">			
 			 	<input type="text" name="search" id="search" placeholder="검색"/>
 			 	<img src="<%=request.getContextPath() %>/images/검색.png" alt="검색" style="cursor: pointer;"/>		 
+				<a href="#" style="font-size: 20px">별점높은순</a>
+				<a href="#" style="font-size: 20px">가격순</a>
+				<a href="#" style="font-size: 20px">찜하기순</a>
+				<a href="#" style="font-size: 20px">조회순</a>
 			</h1>
 		</form>
+		
+		
+		
 		<hr class="mt-2 mb-5">
 
 		<div class="row text-center text-lg-left">
