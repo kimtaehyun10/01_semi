@@ -13,4 +13,22 @@
   	<servlet-name>contentPage</servlet-name>
   	<url-pattern>/travel/contentPage</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>roomReservation</servlet-name>
+  	<jsp-file>/WEB-INF/views/travel/roomReservation.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>roomReservation</servlet-name>
+  	<url-pattern>/travel/roomReservation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>roomContent</servlet-name>
+  	<jsp-file>/WEB-INF/views/travel/roomContent.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>roomContent</servlet-name>
+  	<url-pattern>/travel/roomContent</url-pattern>
+  </servlet-mapping>
 </web-app>

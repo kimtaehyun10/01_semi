@@ -31,6 +31,8 @@ function contentPage(){
 				<a href="#" style="font-size: 20px">가격순</a>
 				<a href="#" style="font-size: 20px">찜하기순</a>
 				<a href="#" style="font-size: 20px">조회순</a>
+				<a href="#" style="font-size: 20px">버스예약</a>
+				<a href="<%=request.getContextPath() %>/travel/roomReservation" style="font-size: 20px">숙박예약</a>
 			</h1>
 		</form>
 		
